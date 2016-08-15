@@ -11,9 +11,9 @@ eureka:
 
 zuul:
   routes:
-    price-command-side:
+    patient-command-side:
       path: /commands/**
-    price-query-side:
+    patient-query-side:
       path: /queries/**
   debug:
     request: true

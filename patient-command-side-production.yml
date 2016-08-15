@@ -10,9 +10,9 @@ eureka:
     
 spring:
     application:
-        exchange: price.events.fanout.exchange
-        queue: price.default.queue
-        databaseName: prices
+        exchange: patient.events.fanout.exchange
+        queue: patient.default.queue
+        databaseName: patients
         eventsCollectionName: events
         snapshotCollectionName: snapshots
     rabbitmq:
@@ -21,7 +21,7 @@ spring:
         password: password
     data:
         mongodb:
-            uri: mongodb://mongodb:27017/prices
+            uri: mongodb://mongodb:27017/patients
 logging:
     level:
         root: INFO

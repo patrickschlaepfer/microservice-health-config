@@ -9,9 +9,9 @@ eureka:
     
 spring:
     application:
-        exchange: price.events.fanout.exchange
+        exchange: patient.events.fanout.exchange
         queue: event.stream
-        terminal: price.axon.terminal
+        terminal: patient.axon.terminal
     rabbitmq:
         hostname: rabbitmq
         username: test
